@@ -38,4 +38,6 @@ jobs:
       # Call my powerful action!
       - name: Check Files
         uses: ruthtxh/markdown-alt-text-suggestor@main
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
