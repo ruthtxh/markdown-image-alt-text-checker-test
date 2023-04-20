@@ -1,4 +1,4 @@
-name: Basic checker for flagging out missing alt-text
+name: 1. Basic checker
 on:
   push:
     branches: [ "main" ]
