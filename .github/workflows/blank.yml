@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Check Files
-        uses: ruthtxh/markdown-alt-text-suggestor@main
+        uses: ruthtxh/exclamation-mark@main
         with:
           owner: ${{ github.repository_owner }}
           repo: ${{ github.event.repository.name }}
