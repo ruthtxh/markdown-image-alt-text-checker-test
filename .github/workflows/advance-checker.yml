@@ -1,4 +1,4 @@
-name: Advance checker with Azure Computer Vision integration for alt-text suggestion
+name: 2. Advance checker
 on:
   push:
     branches: [ "main" ]
