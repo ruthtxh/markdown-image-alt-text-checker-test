@@ -1,4 +1,4 @@
-name: CI
+name: Basic checker for flagging out missing alt-text
 on:
   push:
     branches: [ "main" ]
@@ -18,5 +18,3 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           ref: ${{ github.head_ref || github.ref_name }}
           sha: ${{ github.sha }}
-          key: ${{ secrets.api_key }}
-          endpoint: 'https://exclamation-mark.cognitiveservices.azure.com/'
