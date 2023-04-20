@@ -2,7 +2,7 @@ Inline-style image:
 ![alt text](url)
 
 Inline-style image missing alt-text:
-![](url)
+![](https://moderatorsampleimages.blob.core.windows.net/samples/sample16.png)
 
 Inline-style broken image:
 !(url)
