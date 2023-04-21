@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Advance checker
-        uses: ruthtxh/exclamation-mark@main
+        uses: ruthtxh/markdown-image-alt-text-checker@main
         with:
           owner: ${{ github.repository_owner }}
           repo: ${{ github.event.repository.name }}
